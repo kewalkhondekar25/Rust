@@ -1,6 +1,7 @@
 mod _01_data_type;
 mod _02_conditionals;
 mod _03_loops;
+mod _04_mutability;
 
 fn main() {
     println!("Hello, world!");
@@ -18,10 +19,7 @@ fn main() {
     println!("{}", "loop");
     _03_loops::print_loop();
 
-    let x: u32 = 3;
-    if x % 2 == 0 {
-        println!("{}", "2 is even")
-    } else {
-        println!("{}", "3 is false")
-    }
+    println!("{}", "mutability");
+    _04_mutability::print_mutable();
+
 }   
