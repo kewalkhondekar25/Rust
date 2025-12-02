@@ -2,6 +2,7 @@ mod _01_data_type;
 mod _02_conditionals;
 mod _03_loops;
 mod _04_mutability;
+mod _05_functions;
 
 fn main() {
     println!("Hello, world!");
@@ -22,4 +23,7 @@ fn main() {
     println!("{}", "mutability");
     _04_mutability::print_mutable();
 
+    println!("{}", "functions");
+    let ans: u32 = _05_functions::print_sum_function(69, 69);
+    println!("{}", ans);
 }   
