@@ -30,4 +30,5 @@ fn main() {
 
     println!("ownership rules");
     _06_ownership::ownership_rule();
+    _06_ownership::ownership_rule_func();
 }   
