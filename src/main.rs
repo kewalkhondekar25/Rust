@@ -3,6 +3,7 @@ mod _02_conditionals;
 mod _03_loops;
 mod _04_mutability;
 mod _05_functions;
+mod _06_ownership;
 
 fn main() {
     println!("Hello, world!");
@@ -26,4 +27,7 @@ fn main() {
     println!("{}", "functions");
     let ans: u32 = _05_functions::print_sum_function(69, 69);
     println!("{}", ans);
+
+    println!("ownership rules");
+    _06_ownership::ownership_rule();
 }   
