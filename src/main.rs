@@ -35,4 +35,7 @@ fn main() {
 
     println!("borowing");
     _07_borrowing::borrowing_func();
+
+    println!("borowing rules");
+    _07_borrowing::borrowing_rules();
 }   
