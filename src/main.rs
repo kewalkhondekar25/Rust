@@ -4,6 +4,7 @@ mod _03_loops;
 mod _04_mutability;
 mod _05_functions;
 mod _06_ownership;
+mod _07_borrowing;
 
 fn main() {
     println!("Hello, world!");
@@ -31,4 +32,7 @@ fn main() {
     println!("ownership rules");
     _06_ownership::ownership_rule();
     _06_ownership::ownership_rule_func();
+
+    println!("borowing");
+    _07_borrowing::borrowing_func();
 }   
