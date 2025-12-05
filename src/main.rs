@@ -5,6 +5,7 @@ mod _04_mutability;
 mod _05_functions;
 mod _06_ownership;
 mod _07_borrowing;
+mod _08_structs;
 
 fn main() {
     println!("Hello, world!");
@@ -38,4 +39,7 @@ fn main() {
 
     println!("borowing rules");
     _07_borrowing::borrowing_rules();
+    
+    println!("structs");
+    _08_structs::print_struct();
 }   
